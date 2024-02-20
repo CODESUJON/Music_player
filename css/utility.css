@@ -1,0 +1,68 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+/* For Webkit/Blink browsers (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #2e2e2e; /* Dark color for thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #1a1a1a; /* Dark color for track */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-color: #2e2e2e #1a1a1a; /* Dark color for thumb and track */
+    scrollbar-width: thin;
+  }
+  
+  /* For Edge and IE */
+  * {
+    -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  }
+  
+  *::-ms-scrollbar-thumb {
+    background-color: #2e2e2e; /* Dark color for thumb */
+    border-radius: 6px;
+  }
+  
+  *::-ms-scrollbar-track {
+    background-color: #1a1a1a; /* Dark color for track */
+  }
+  
